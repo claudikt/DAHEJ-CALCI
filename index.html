@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dahej Calculator 😂</title>
+  <!-- Font: Comic Neue -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="calculator">
+    <h2>💰 Dahej Calculator</h2>
+
+    <label for="profession" title="Higher the status, higher the dahej!">Profession</label>
+    <select id="profession">
+      <option value="2">Engineer</option>
+      <option value="3">Doctor</option>
+      <option value="4">Govt Job</option>
+      <option value="1">Freelancer</option>
+      <option value="5">CEO 😎</option>
+    </select>
+
+    <label for="income" title="Annual salary in ₹. Bigger = better (for dahej)">Annual Income (₹)</label>
+    <input type="number" id="income" placeholder="Enter amount" />
+
+    <label for="fairness" title="No judgment, just for 'tradition' 🙄">Fairness Level</label>
+    <select id="fairness">
+      <option value="1">Wheatish</option>
+      <option value="2">Fair</option>
+      <option value="3">Milky White ✨</option>
+    </select>
+
+    <label for="car" title="Transport = dahej boost">Car Ownership</label>
+    <select id="car">
+      <option value="0">None</option>
+      <option value="1">Scooty</option>
+      <option value="2">Swift</option>
+      <option value="4">BMW 😎</option>
+    </select>
+
+    <label for="height" title="Height matters (apparently)">Height</label>
+    <select id="height">
+      <option value="1">Below 5'5"</option>
+      <option value="2">5'6\" - 5'10\"</option>
+      <option value="3">Above 6'</option>
+    </select>
+
+    <div class="result" id="result">Enter your details to get dahej 💍</div>
+
+    <div class="buttons">
+      <button onclick="generateCertificate()">📜 Download Certificate</button>
+      <button onclick="shareDahej()">📤 Share My Dahej</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
